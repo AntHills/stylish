@@ -7,12 +7,12 @@ function Sidebar() {
         <Link to="/">Stylish</Link>
       </div>
       <NavLink
-        to="/fonts"
+        to="/text"
         className={({ isActive }) => {
           return isActive ? "active-link" : "inactive-link";
         }}
       >
-        Fonts
+        Text
       </NavLink>
       <NavLink
         to="/layouts"
@@ -20,7 +20,7 @@ function Sidebar() {
           return isActive ? "active-link" : "inactive-link";
         }}
       >
-        Layouts
+        Layout
       </NavLink>
     </div>
   );

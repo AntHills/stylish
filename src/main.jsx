@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import FontStyles from "./components/FontStyles.jsx";
+import TextStyles from "./components/TextStyles.jsx";
 import LayoutStyles from "./components/LayoutStyles.jsx";
 import NotFound from "./components/NotFound.jsx";
 
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       {
-        path: "/fonts",
-        element: <FontStyles />,
+        path: "/text",
+        element: <TextStyles />,
       },
       {
         path: "/layouts",

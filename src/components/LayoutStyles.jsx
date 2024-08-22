@@ -1,5 +1,5 @@
 function LayoutStyles() {
-  return <div className="page-content">Layout</div>;
+  return <div>Layout</div>;
 }
 
 export default LayoutStyles;
