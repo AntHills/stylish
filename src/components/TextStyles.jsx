@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import PropertyEditor from "./PropertyEditor.jsx";
 
 function TextStyles() {
   const [text, setText] = useState("This is the example text");
@@ -17,6 +18,7 @@ function TextStyles() {
         onChange={handleTextChange}
       />
       <p ref={textExample}>{text}</p>
+      <PropertyEditor />
     </div>
   );
 }
