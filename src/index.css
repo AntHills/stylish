@@ -75,3 +75,31 @@ body {
   margin: 2px;
   padding-left: 5px;
 }
+
+.property-editor-container {
+  border-radius: 10px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.property-active {
+  border: 2px solid rgb(127, 99, 215);
+}
+
+.property-inactive {
+  border: 2px solid rgb(211, 211, 211);
+  color: rgb(170, 170, 170);
+  background-color: rgb(236, 236, 236);
+}
+
+.property-checkbox {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(127, 99, 215);
+}
